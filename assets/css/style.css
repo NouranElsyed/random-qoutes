@@ -1,0 +1,144 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  /* background-color: #ffb730; */
+  position: relative;
+ 
+}
+header{
+    background-image:  linear-gradient(to right , rgba(0, 0, 0, 0.605) , rgba(0, 0, 0, 0.486) , rgba(0, 0, 0, 0.557) ) , url(../img/abundant-collection-antique-books-wooden-shelves-generated-by-ai.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+
+
+    
+}
+.img1{
+  /* background-color: aquamarine; */
+  transform:   scale(65%);
+  
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 999;
+}
+.img2{
+  /* background-color: aquamarine; */
+  transform: rotate(180deg) scale(65%);
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  z-index: 9999;
+}
+@media only screen and (max-width: 750px){
+  .img1{
+    
+    transform:   scale(30%);
+    
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    z-index: 999;
+  }
+  .img2{
+    
+    transform: rotate(180deg) scale(30%);
+    position: absolute;
+    bottom: 90px;
+    right: 30px;
+    z-index: 9999;
+  }
+
+}
+.h-60{
+    height: 65hv;
+}
+
+
+button {
+    margin: 20px;
+    
+  }
+  .custom-btn {
+    color: #fff;
+    width: 250px;
+    height: 60px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn-6 {
+    background: #ffb730;
+    line-height: 40px;
+    padding: 0;
+    border: none;
+    box-shadow: 0 0 5px #ffb730;
+  }
+  .btn-6 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-6:hover{
+    background: transparent;
+  }
+  .btn-6:before,
+  .btn-6:after {
+    position: absolute;
+    content: "";
+    height: 0%;
+    width: 2px;
+    background: #ffb730;
+   box-shadow: 0 0 5px #ffb730;
+  }
+  .btn-6:before {
+    right: 0;
+    top: 0;
+    transition: all 500ms ease;
+  }
+  .btn-6:after {
+    left: 0;
+    bottom: 0;
+    transition: all 500ms ease;
+  }
+  .btn-6:hover:before {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-6:hover:after {
+    transition: all 500ms ease;
+    height: 100%;
+  }
+  .btn-6 span:before,
+  .btn-6 span:after {
+    position: absolute;
+    content: "";
+    background: #ffb730;
+    box-shadow: 0 0 5px #ffb730;
+  }
+  .btn-6 span:before {
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+  }
+  .btn-6 span:after {
+    right: 0;
+    bottom: 0;
+    width: 0%;
+    height: 2px;
+    transition: all 500ms ease;
+  }
+  .btn-6 span:hover:before {
+    width: 100%;
+  }
+  .btn-6 span:hover:after {
+    width: 100%;
+  }
