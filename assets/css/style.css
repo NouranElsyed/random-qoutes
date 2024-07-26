@@ -15,7 +15,7 @@ header{
 }
 .img1{
   /* background-color: aquamarine; */
-  transform:   scale(65%);
+  transform:   scale(55%);
   
   position: absolute;
   top: 100px;
@@ -24,7 +24,7 @@ header{
 }
 .img2{
   /* background-color: aquamarine; */
-  transform: rotate(180deg) scale(65%);
+  transform: rotate(180deg) scale(55%);
   position: absolute;
   bottom: 100px;
   right: 100px;
@@ -36,17 +36,21 @@ header{
     transform:   scale(30%);
     
     position: absolute;
-    top: 30px;
-    left: 15px;
+    top: 100px;
+    left: -10px;
     z-index: 999;
   }
   .img2{
     
     transform: rotate(180deg) scale(30%);
     position: absolute;
-    bottom: 90px;
-    right: 30px;
+    bottom: 220px;
+    right: -15px;
     z-index: 9999;
+  }
+  .custom-btn {
+    padding: 5px 15px;
+
   }
 
 }
